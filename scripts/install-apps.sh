@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Install Packages from List
 echo "Installing packages from list..."
-sudo dnf install $(cat ../installed_packages.txt)
+cat ../package_names.txt | xargs -I {} sudo dnf install -y {}
 
 echo "Installations complete."
 
