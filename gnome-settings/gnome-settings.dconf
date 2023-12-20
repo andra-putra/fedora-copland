@@ -1,0 +1,637 @@
+[com/github/maoschanz/DynamicWallpaperEditor]
+display-mode='list'
+
+[org/fedorahosted/background-logo-extension]
+logo-always-visible=false
+logo-position='bottom-right'
+logo-size=6.4345991561181437
+
+[org/freedesktop/ibus/engine/anthy/dict]
+list=[<('embedded', '般', 'General', '', true, 0, true, true, false, 'utf-8')>, <('zipcode', '〒', 'Zip Code Conversion', '', true, -1, false, true, false, 'utf-8')>, <('symbol', '記', 'Symbol', '', true, -1, true, false, false, 'utf-8')>, <('oldchar', '旧', 'Old Character Style', '', true, -1, false, true, false, 'utf-8')>, <('era', '年', 'Era', '', true, -1, false, true, false, 'utf-8')>, <('emoji', '😊', 'Emoji', '', true, -1, true, false, false, 'utf-8')>]
+
+[org/freedesktop/ibus/engine/anthy/shortcut]
+default={'move_caret_first': <['Ctrl+A', 'Home']>, 'select_candidates_9': <['9']>, 'delete': <['Delete', 'Ctrl+D']>, 'circle_typing_method': <['Alt+Romaji', 'Ctrl+slash']>, 'convert_to_latin_all': <['Shift+F10']>, 'commit_selected_segment': <['Ctrl+Down']>, 'select_prev_candidate': <['Shift+Tab', 'Shift+ISO_Left_Tab', 'Up', 'KP_Subtract', 'Ctrl+P']>, 'convert_to_half': <['F8']>, 'select_next_segment': <['Right', 'Ctrl+F']>, 'select_first_segment': <['Ctrl+A', 'Home']>, 'predict': <['Tab', 'ISO_Left_Tab']>, 'dict_admin': <['F11']>, 'select_candidates_4': <['4']>, 'convert_to_katakana_all': <['Shift+F7']>, 'select_last_segment': <['Ctrl+E', 'End']>, 'reconvert': <['Shift+Henkan']>, 'move_caret_last': <['Ctrl+E', 'End']>, 'select_next_candidate': <['space', 'KP_Space', 'Tab', 'ISO_Left_Tab', 'Henkan', 'Down', 'KP_Add', 'Ctrl+N']>, 'select_candidates_5': <['5']>, 'commit_first_segment': <['Shift+Down']>, 'expand_segment': <['Shift+Right', 'Ctrl+O']>, 'convert_to_wide_latin_all': <['Shift+F9']>, 'select_candidates_0': <['0']>, 'convert_to_wide_latin': <['F9']>, 'convert': <['space', 'KP_Space', 'Henkan']>, 'move_caret_backward': <['Left', 'Ctrl+B']>, 'select_candidates_6': <['6']>, 'convert_to_katakana': <['F7']>, 'candidates_page_up': <['Page_Up']>, 'circle_kana_mode': <['Ctrl+greater']>, 'select_prev_segment': <['Left', 'Ctrl+B']>, 'shrink_segment': <['Shift+Left', 'Ctrl+I']>, 'select_candidates_1': <['1']>, 'circle_dict_method': <['Alt+Henkan']>, 'select_last_candidate': <['End']>, 'on_off': <['Alt+grave', 'Zenkaku_Hankaku']>, 'select_candidates_7': <['7']>, 'convert_to_latin': <['F10']>, 'convert_to_half_katakana': <['Shift+F8']>, 'convert_to_hiragana': <['F6']>, 'insert_alternate_space': <['Shift+space']>, 'cancel': <['Escape', 'Ctrl+G']>, 'select_candidates_2': <['2']>, 'backspace': <['BackSpace', 'Ctrl+H']>, 'commit': <['Return', 'KP_Enter', 'Ctrl+J', 'Ctrl+M']>, 'select_first_candidate': <['Home']>, 'insert_space': <['space']>, 'circle_input_mode': <['Ctrl+comma', 'Ctrl+less']>, 'candidates_page_down': <['Page_Down', 'KP_Tab']>, 'select_candidates_8': <['8']>, 'convert_to_char_type_forward': <['Muhenkan']>, 'convert_to_hiragana_all': <['Shift+F6']>, 'select_candidates_3': <['3']>, 'hiragana_for_latin_with_shift': <['Hiragana_Katakana']>, 'move_caret_forward': <['Right', 'Ctrl+F']>, 'add_word': <['F12']>, 'katakana_mode': <['Shift+Caps_Lock']>, 'hiragana_mode': <['Alt+Caps_Lock']>}
+
+[org/gnome/Connections]
+first-run=false
+
+[org/gnome/TextEditor]
+last-save-directory='file:///home/tobylaroned/Documents/TIU_Classes/Sem%207/UTWS'
+
+[org/gnome/Totem]
+active-plugins=['vimeo', 'screenshot', 'autoload-subtitles', 'recent', 'skipto', 'mpris', 'save-file', 'rotation', 'movie-properties', 'variable-rate', 'apple-trailers', 'screensaver', 'open-directory']
+subtitle-encoding='UTF-8'
+
+[org/gnome/Weather]
+locations=[<(uint32 2, <('Tokyo', 'RJTI', true, [(0.62191898430954862, 2.4408429589140699)], [(0.62282074357417661, 2.4391218722853854)])>)>]
+window-height=500
+window-maximized=false
+window-width=992
+
+[org/gnome/baobab/ui]
+is-maximized=false
+window-size=(960, 600)
+
+[org/gnome/boxes]
+first-run=false
+view='icon-view'
+window-maximized=true
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=true
+window-size=(768, 600)
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='Integrated Camera (V4L2)'
+photo-x-resolution=1280
+photo-y-resolution=720
+video-x-resolution=1280
+video-y-resolution=720
+
+[org/gnome/clocks]
+world-clocks=[{'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Jakarta', 'WIII', false, [(-0.10675597839808398, 1.8613936472519526)], [(-0.10675597839808398, 1.8613936472519526)])>)>}, {'location': <(uint32 2, <('Melbourne', 'YMML', true, [(-0.65740735740229495, 2.5278185274873568)], [(-0.6600253512802865, 2.5301456447922108)])>)>}]
+
+[org/gnome/clocks/state/window]
+maximized=false
+panel-id='world'
+size=(870, 690)
+
+[org/gnome/control-center]
+last-panel='display'
+window-state=(618, 1008, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus', '02a2dc88-aff2-4b3c-8c52-b818fb0a4cf3']
+
+[org/gnome/desktop/app-folders/folders/02a2dc88-aff2-4b3c-8c52-b818fb0a4cf3]
+apps=['libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'libreoffice-writer.desktop']
+name='Office'
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'org.gnome.PowerStats.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/tobylaroned/.local/share/backgrounds/2023-11-22-14-52-44-Sinners%20Of%20Nullian%20Origin.png'
+picture-uri-dark='file:///home/tobylaroned/.local/share/backgrounds/2023-11-22-14-52-44-Sinners%20Of%20Nullian%20Origin.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+mru-sources=[('xkb', 'us'), ('ibus', 'anthy')]
+show-all-sources=false
+sources=[('xkb', 'us'), ('ibus', 'anthy')]
+xkb-options=['lv3:rwin_switch']
+
+[org/gnome/desktop/interface]
+clock-show-seconds=true
+clock-show-weekday=true
+color-scheme='prefer-dark'
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-enable-primary-paste=false
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['gnome-network-panel', 'gnome-power-panel', 'org-gnome-software', 'gnome-datetime-panel', 'org-freedesktop-problems-applet', 'org-gnome-settings', 'org-gnome-terminal', 'org-gnome-evolution-alarm-notify', 'org-gnome-characters', 'com-github-eloston-ungoogledchromium', 'org-gnome-tweaks', 'firefox', 'us-zoom-zoom', 'com-spotify-client', 'com-discordapp-discord', 'org-gnome-evince', 'org-gnome-nautilus', 'xdg-desktop-portal-gnome', 'com-rtosta-zapzap', 'org-gnome-extensions-desktop', 'input-remapper-gtk', 'gnome-system-monitor', 'org-gnome-shell-portalhelper', 'org-gnome-texteditor', 'org-gnome-font-viewer']
+show-banners=true
+
+[org/gnome/desktop/notifications/application/com-discordapp-discord]
+application-id='com.discordapp.Discord.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-eloston-ungoogledchromium]
+application-id='com.github.Eloston.UngoogledChromium.desktop'
+show-banners=false
+
+[org/gnome/desktop/notifications/application/com-rtosta-zapzap]
+application-id='com.rtosta.zapzap.desktop'
+
+[org/gnome/desktop/notifications/application/com-spotify-client]
+application-id='com.spotify.Client.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+show-banners=false
+
+[org/gnome/desktop/notifications/application/gnome-datetime-panel]
+application-id='gnome-datetime-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-system-monitor]
+application-id='gnome-system-monitor.desktop'
+
+[org/gnome/desktop/notifications/application/input-remapper-gtk]
+application-id='input-remapper-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-characters]
+application-id='org.gnome.Characters.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-font-viewer]
+application-id='org.gnome.font-viewer.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-portalhelper]
+application-id='org.gnome.Shell.PortalHelper.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/us-zoom-zoom]
+application-id='us.zoom.Zoom.desktop'
+
+[org/gnome/desktop/notifications/application/xdg-desktop-portal-gnome]
+application-id='xdg-desktop-portal-gnome.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+delay=uint32 214
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='flat'
+left-handed=false
+speed=-0.37007874015748032
+
+[org/gnome/desktop/peripherals/touchpad]
+send-events='enabled'
+speed=0.076171875
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+remove-old-temp-files=true
+remove-old-trash-files=true
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/tobylaroned/.local/share/backgrounds/2023-11-22-14-52-44-Sinners%20Of%20Nullian%20Origin.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 600
+
+[org/gnome/desktop/sound]
+event-sounds=false
+theme-name='__custom'
+
+[org/gnome/desktop/wm/keybindings]
+maximize=@as []
+minimize=['<Control><Alt>p']
+switch-group=['<Control><Alt>Tab']
+switch-group-backward=['<Shift><Control><Alt>Tab']
+switch-panels=@as []
+switch-panels-backward=@as []
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-left=['<Control><Super>Left']
+switch-to-workspace-right=['<Control><Super>Right']
+unmaximize=@as []
+
+[org/gnome/desktop/wm/preferences]
+auto-raise=false
+button-layout='appmenu:minimize,maximize,close'
+focus-mode='sloppy'
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=false
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='free'
+window-ratio=(1.6058590337969496, 1.1972633979475484)
+zoom=0.61727641131040878
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/evolution-data-server/calendar]
+notify-window-height=281
+notify-window-paned-position=48
+notify-window-width=213
+notify-window-x=26
+notify-window-y=23
+reminders-past=['68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n0b8bd816639390c3c0c117c46e74b795ed1938aa\t20231220\n1703028600\n1703030400\n1703116800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231220\r\nDTEND;VALUE=DATE:20231221\r\nDTSTAMP:20231019T124751Z\r\nUID:5ppcuufv6hfstkijooun96id2k@google.com\r\nCREATED:20231019T124609Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231019T124751Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:JASSO Payment\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63833402871\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:0b8bd816639390c3c0c117c46e74b795ed1938aa\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\nb2d3c9dba43564dd5510079813c0d7e5e5934d9f\t20231219T143000\n1702962000\n1702963800\n1702981800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231219T143000\r\nDTEND;TZID=Asia/Tokyo:20231219T193000\r\nDTSTAMP:20231219T041748Z\r\nUID:6jl13gii294hn0kerr5bb3ld70@google.com\r\nCREATED:20231219T041748Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231219T041748Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:AKB/Cafe\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838642668\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:b2d3c9dba43564dd5510079813c0d7e5e5934d9f\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\na0d42ab60d11551bc6e69096ffcc94b2d7dded49\t20231219T133000\n1702958400\n1702960200\n1702962000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231219T133000\r\nDTEND;TZID=Asia/Tokyo:20231219T140000\r\nDTSTAMP:20231219T034714Z\r\nUID:4b2uqfb42frqi95o3n0487li65@google.com\r\nCREATED:20231212T050811Z\r\nDESCRIPTION:Ask about holiday when or how can contact\\nWhat should do \r\n during break\\nShow already set up database\\, considering python for \r\n backend (logic to interact with database and ioctl?)\r\nLAST-MODIFIED:20231219T034714Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Meet prof. Hamza\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838640834\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:a0d42ab60d11551bc6e69096ffcc94b2d7dded49\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n0c3e9e68017e9140adac57b0b5f9130c199e2e01\t20231205T130000\n1702899000\n1702900800\n1702911600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231218T210000\r\nDTEND;TZID=Asia/Tokyo:20231219T000000\r\nDTSTAMP:20231218T115000Z\r\nUID:3nhlbbqnjjhhhc5f2d9qfj1m5k@google.com\r\nRECURRENCE-ID;TZID=Asia/Tokyo:20231205T130000\r\nCREATED:20231001T104201Z\r\nDESCRIPTION:- Try connecting to DB\\n- List out possible ways can do\\, to \r\n prepare to ask prof hamza\r\nLAST-MODIFIED:20231218T115000Z\r\nLOCATION:\r\nSEQUENCE:14\r\nSTATUS:CONFIRMED\r\nSUMMARY:Work on Thesis\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838583400\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:0c3e9e68017e9140adac57b0b5f9130c199e2e01\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n861397a4d20cd94fc5a1cd4e428204425af1118c\t20231218\n1702855800\n1702857600\n1702944000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231218\r\nDTEND;VALUE=DATE:20231219\r\nEXDATE;VALUE=DATE:20211230\r\nEXDATE;VALUE=DATE:20220103\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,TH\r\nDTSTAMP:20230927T050750Z\r\nUID:3kmufkq8m0bgrk4g8j3ki2i2qp@google.com\r\nCREATED:20210116T154905Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050750Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Burnable Trash (燃えるゴミ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474470\r\nRECURRENCE-ID;VALUE=DATE:20231218\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:861397a4d20cd94fc5a1cd4e428204425af1118c\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT6H\r\nX-EVOLUTION-ALARM-UID:80dbd2c421aed445d1942732e597385a68698520\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n80dbd2c421aed445d1942732e597385a68698520\t20231218\n1702836000\n1702857600\n1702944000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231218\r\nDTEND;VALUE=DATE:20231219\r\nEXDATE;VALUE=DATE:20211230\r\nEXDATE;VALUE=DATE:20220103\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,TH\r\nDTSTAMP:20230927T050750Z\r\nUID:3kmufkq8m0bgrk4g8j3ki2i2qp@google.com\r\nCREATED:20210116T154905Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050750Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Burnable Trash (燃えるゴミ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474470\r\nRECURRENCE-ID;VALUE=DATE:20231218\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:861397a4d20cd94fc5a1cd4e428204425af1118c\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT6H\r\nX-EVOLUTION-ALARM-UID:80dbd2c421aed445d1942732e597385a68698520\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n0ffb593d435c8634c3e5bfb9e71b5d3fc0b99986\t20231217T183000\n1702803600\n1702805400\n1702812600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231217T183000\r\nDTEND;TZID=Asia/Tokyo:20231217T203000\r\nDTSTAMP:20231217T073344Z\r\nUID:2s3uc0l0mkn7hvlitc30or0cc7@google.com\r\nCREATED:20231214T151126Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231217T073344Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Last Supper w/ Haruki\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838481624\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:0ffb593d435c8634c3e5bfb9e71b5d3fc0b99986\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\nf6b9c01378a6681e241b41bf36db6dbb0e3999a0\t20231217T110000\n1702776600\n1702778400\n1702803600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231217T110000\r\nDTEND;TZID=Asia/Tokyo:20231217T180000\r\nDTSTAMP:20231210T045936Z\r\nUID:32nn6ua2u2c8epq9k3ja0jh5ic@google.com\r\nCREATED:20231202T122425Z\r\nDESCRIPTION:- Check out cheap laptops\\n- Buy cheap SD card reader\\, for \r\n storage in pwnagotchi case\\n- Check out キャプ store & thinkfactory\r\nLAST-MODIFIED:20231210T045936Z\r\nLOCATION:\r\nSEQUENCE:5\r\nSTATUS:CONFIRMED\r\nSUMMARY:AKB/Cafe\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63837867576\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:f6b9c01378a6681e241b41bf36db6dbb0e3999a0\r\nEND:VALARM\r\nEND:VEVENT\r\n', "68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n27c05128c287e2bf65d85d89f40c00100380c141\t20231217\n1702769400\n1702771200\n1702857600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231217\r\nDTEND;VALUE=DATE:20231218\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20220313T025254Z\r\nUID:\r\n c8s3ip9icgs3gbb2ckqm2b9k6gsj8b9pckqjab9iccr32cr2cdgmac336c@google.com\r\nCREATED:20160309T165056Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20220313T025254Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anett's birthday\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63782823174\r\nRECURRENCE-ID;VALUE=DATE:20231217\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:27c05128c287e2bf65d85d89f40c00100380c141\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:EMAIL\r\nDESCRIPTION:This is an event reminder\r\nSUMMARY:Alarm notification\r\nATTENDEE:mailto:andra0417@gmail.com\r\nTRIGGER:-PT7H30M\r\nX-EVOLUTION-ALARM-UID:cccf9aa0f5ca265a6af67a2cb266ff8bc7768fbc\r\nEND:VALARM\r\nEND:VEVENT\r\n", '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n00c9cdaf1b15de9baa73c2fb2a1fb8b07b127d4a\t20231216T145000\n1702704000\n1702705800\n1702707300\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231216T145000\r\nDTEND;TZID=Asia/Tokyo:20231216T151500\r\nDTSTAMP:20231216T040640Z\r\nUID:\r\n 69h62d1n6lhmcbb560q3cb9k65gjgbb26hgjib9mckoj2pb171hj4pb56c@google.com\r\nCREATED:20231216T040640Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231216T040640Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:メモリー面談\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838382800\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:00c9cdaf1b15de9baa73c2fb2a1fb8b07b127d4a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n3649e7179ee3b2f0fd4cacaa9979b134754c2e91\t20231216T121500\n1702694700\n1702696500\n1702699200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231216T121500\r\nDTEND;TZID=Asia/Tokyo:20231216T130000\r\nDTSTAMP:20231215T232426Z\r\nUID:\r\n 68qjcdhg64sj8bb3c4p62b9k61h64b9p75h3ib9j74ojcpb5cgp68pj360@google.com\r\nCREATED:20231215T232314Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231215T232426Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cygames\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63838365866\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:3649e7179ee3b2f0fd4cacaa9979b134754c2e91\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'd05d66f9360aa008e190eccf16f859e2448bc8ba\n31baff2294e2cfaea42c152e76936bef63f8a14e\t20231215T180000\n1702630200\n1702630800\n1702634400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231215T180000\r\nDTEND;TZID=Asia/Tokyo:20231215T190000\r\nDTSTAMP:20231211T035815Z\r\nUID:2slngh5eiortf7tru3jirfc93j@google.com\r\nCREATED:20231211T035801Z\r\nDESCRIPTION:<ol><li><b><h2><span><b>Corporate Dinner - LC \r\n Hangout<br></b></span></h2></b></li></ol><ul><li><p><span>When: \r\n </span><span>Dec 15\\, 2023</span></p></li><li><p><span>Time: from \r\n 6PM</span></p></li><li><p><span>Location: International Cafeteria \r\n 😀👍</span></p></li></ul>\r\nLAST-MODIFIED:20231211T035815Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:EP Dinner\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63837950295\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT10M\r\nX-EVOLUTION-ALARM-UID:31baff2294e2cfaea42c152e76936bef63f8a14e\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'd05d66f9360aa008e190eccf16f859e2448bc8ba\n4958eb1ca23da4ef8563f54aa3493fb96388d8d8\t20231215T160000\n1702623000\n1702623600\n1702627200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231215T160000\r\nDTEND;TZID=Asia/Tokyo:20231215T170000\r\nEXDATE;TZID=Asia/Tokyo:20230922T160000\r\nEXDATE;TZID=Asia/Tokyo:20231027T160000\r\nEXDATE;TZID=Asia/Tokyo:20231103T160000\r\nEXDATE;TZID=Asia/Tokyo:20231117T160000\r\nRRULE:FREQ=WEEKLY;UNTIL=20231215T145959Z;BYDAY=FR\r\nEXDATE;TZID=Asia/Tokyo:20231208T160000\r\nDTSTAMP:20231117T115301Z\r\nUID:1c2gpsek8u9brkukh3jv2hhptf@google.com\r\nCREATED:20230911T030529Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231117T115301Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:EP: PEP Shift\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63837621309\r\nRECURRENCE-ID;TZID=Asia/Tokyo:20231215T160000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT10M\r\nX-EVOLUTION-ALARM-UID:4958eb1ca23da4ef8563f54aa3493fb96388d8d8\r\nEND:VALARM\r\nEND:VEVENT\r\n', "68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n8ff6b882ad9ffb336269b901a0f54a09bb434d04\t20231215\n1702596600\n1702598400\n1702684800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231215\r\nDTEND;VALUE=DATE:20231216\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20231119T113625Z\r\nUID:3115gcseqm6l9de38no70ehh9j@google.com\r\nCREATED:20231119T113552Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231119T113625Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Ash's Birthday\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63836076985\r\nRECURRENCE-ID;VALUE=DATE:20231215\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:8ff6b882ad9ffb336269b901a0f54a09bb434d04\r\nEND:VALARM\r\nEND:VEVENT\r\n", '841ef05c8dd157e9258bca834416cf3483379e83\n47fee6a46e4e63b4cd7b3e3ecf976b3930b00417\t20231215\n1702596600\n1702598400\n1702684800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231215\r\nDTEND;VALUE=DATE:20231216\r\nEXDATE;VALUE=DATE:20211231\r\nEXDATE;VALUE=DATE:20220107\r\nRRULE:FREQ=WEEKLY;BYDAY=FR\r\nDTSTAMP:20230927T050748Z\r\nUID:68n2426iaioq182nedtr1oh5q3@google.com\r\nCREATED:20210116T154736Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050748Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Plastic Containers &amp\\; Wrapping (プラ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474468\r\nRECURRENCE-ID;VALUE=DATE:20231215\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:47fee6a46e4e63b4cd7b3e3ecf976b3930b00417\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT12H\r\nX-EVOLUTION-ALARM-UID:4ab88c398a18b40e59a23a86ddd365844ff55ca2\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n30ae77aeeb348c0d3ed4aa4439debfd4a8e31150\t20231215\n1702596600\n1702598400\n1702684800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231215\r\nDTEND;VALUE=DATE:20231216\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20210116T164136Z\r\nUID:0r6ikbtf373bjtnhromkkpni5d@google.com\r\nCREATED:20210116T164136Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20210116T164136Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Bottles & Cans / PET Bottles Trash Day\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63746498496\r\nRECURRENCE-ID;VALUE=DATE:20231215\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:30ae77aeeb348c0d3ed4aa4439debfd4a8e31150\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'd05d66f9360aa008e190eccf16f859e2448bc8ba\na300460064a3deb255eed9ed4c0bde79a838f910\t20231215T150000\n1702619400\n1702620000\n1702623600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231215T150000\r\nDTEND;TZID=Asia/Tokyo:20231215T160000\r\nEXDATE;TZID=Asia/Tokyo:20230922T150000\r\nEXDATE;TZID=Asia/Tokyo:20231027T150000\r\nEXDATE;TZID=Asia/Tokyo:20231103T150000\r\nEXDATE;TZID=Asia/Tokyo:20231117T150000\r\nRRULE:FREQ=WEEKLY;UNTIL=20231215T145959Z;BYDAY=FR\r\nDTSTAMP:20231117T115303Z\r\nUID:13g6491qmd4nmm0988psc8aph7@google.com\r\nCREATED:20230911T030500Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231117T115303Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:EP: Front Desk Shift\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63835905183\r\nRECURRENCE-ID;TZID=Asia/Tokyo:20231215T150000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT10M\r\nX-EVOLUTION-ALARM-UID:a300460064a3deb255eed9ed4c0bde79a838f910\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n4ab88c398a18b40e59a23a86ddd365844ff55ca2\t20231215\n1702555200\n1702598400\n1702684800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231215\r\nDTEND;VALUE=DATE:20231216\r\nEXDATE;VALUE=DATE:20211231\r\nEXDATE;VALUE=DATE:20220107\r\nRRULE:FREQ=WEEKLY;BYDAY=FR\r\nDTSTAMP:20230927T050748Z\r\nUID:68n2426iaioq182nedtr1oh5q3@google.com\r\nCREATED:20210116T154736Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050748Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Plastic Containers &amp\\; Wrapping (プラ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474468\r\nRECURRENCE-ID;VALUE=DATE:20231215\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:47fee6a46e4e63b4cd7b3e3ecf976b3930b00417\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT12H\r\nX-EVOLUTION-ALARM-UID:4ab88c398a18b40e59a23a86ddd365844ff55ca2\r\nEND:VALARM\r\nEND:VEVENT\r\n', '5fe5ad1148df8da8d49411391a0282a23741d5d9\n07130d3a28e05b3148a39cbbf9b7d4ff757a6d31\t20231214T151000\n1702535700\n1702536300\n1702537200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231214T154500\r\nDTEND;TZID=Asia/Tokyo:20231214T160000\r\nDTSTAMP:20231204T063333Z\r\nUID:0lf9hcv5rba9hvt5mpm60mgofq@google.com\r\nRECURRENCE-ID;TZID=Asia/Tokyo:20231214T151000\r\nCREATED:20230901T051745Z\r\nDESCRIPTION:教室1303/池袋キャンパス\r\nLAST-MODIFIED:20231204T063333Z\r\nLOCATION:東京国際大学 池袋キャンパス\\, 4-chōme-42-31 \r\n Higashiikebukuro\\, Toshima City\\, Tokyo 170-0013\\, Japan\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Business Japanese (口頭試験）\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63837354813\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT10M\r\nX-EVOLUTION-ALARM-UID:07130d3a28e05b3148a39cbbf9b7d4ff757a6d31\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n861397a4d20cd94fc5a1cd4e428204425af1118c\t20231214\n1702510200\n1702512000\n1702598400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231214\r\nDTEND;VALUE=DATE:20231215\r\nEXDATE;VALUE=DATE:20211230\r\nEXDATE;VALUE=DATE:20220103\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,TH\r\nDTSTAMP:20230927T050750Z\r\nUID:3kmufkq8m0bgrk4g8j3ki2i2qp@google.com\r\nCREATED:20210116T154905Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050750Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Burnable Trash (燃えるゴミ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474470\r\nRECURRENCE-ID;VALUE=DATE:20231214\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:861397a4d20cd94fc5a1cd4e428204425af1118c\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT6H\r\nX-EVOLUTION-ALARM-UID:80dbd2c421aed445d1942732e597385a68698520\r\nEND:VALARM\r\nEND:VEVENT\r\n', '841ef05c8dd157e9258bca834416cf3483379e83\n80dbd2c421aed445d1942732e597385a68698520\t20231214\n1702490400\n1702512000\n1702598400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20231214\r\nDTEND;VALUE=DATE:20231215\r\nEXDATE;VALUE=DATE:20211230\r\nEXDATE;VALUE=DATE:20220103\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,TH\r\nDTSTAMP:20230927T050750Z\r\nUID:3kmufkq8m0bgrk4g8j3ki2i2qp@google.com\r\nCREATED:20210116T154905Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20230927T050750Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Burnable Trash (燃えるゴミ) Day\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63831474470\r\nRECURRENCE-ID;VALUE=DATE:20231214\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:861397a4d20cd94fc5a1cd4e428204425af1118c\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT6H\r\nX-EVOLUTION-ALARM-UID:80dbd2c421aed445d1942732e597385a68698520\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'd05d66f9360aa008e190eccf16f859e2448bc8ba\n07ef74b38f84e699d5effcc3fc971096b2ea78c0\t20231212T150000\n1702360200\n1702360800\n1702364400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231212T150000\r\nDTEND;TZID=Asia/Tokyo:20231212T160000\r\nEXDATE;TZID=Asia/Tokyo:20230926T150000\r\nEXDATE;TZID=Asia/Tokyo:20231017T150000\r\nEXDATE;TZID=Asia/Tokyo:20231107T150000\r\nRRULE:FREQ=WEEKLY;UNTIL=20231212T145959Z;BYDAY=TU\r\nEXDATE;TZID=Asia/Tokyo:20231114T150000\r\nEXDATE;TZID=Asia/Tokyo:20231205T150000\r\nDTSTAMP:20231106T130727Z\r\nUID:30hql2eid000shs072njcijls6@google.com\r\nCREATED:20230911T030211Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231106T130727Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:EP: Cafe Shift\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63837436785\r\nRECURRENCE-ID;TZID=Asia/Tokyo:20231212T150000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT10M\r\nX-EVOLUTION-ALARM-UID:07ef74b38f84e699d5effcc3fc971096b2ea78c0\r\nEND:VALARM\r\nEND:VEVENT\r\n', '68930ab4a7d2b1a8fdf130319de2d7fbbfeb4d0d\n5f2893c4cb7cb0cc28b2fce0f97d988a75a5b5fd\t20231212T110000\n1702344600\n1702346400\n1702354500\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Tokyo:20231212T110000\r\nDTEND;TZID=Asia/Tokyo:20231212T131500\r\nDTSTAMP:20231205T151001Z\r\nUID:2r9csf9rru5vujdc3q463g6ars@google.com\r\nCREATED:20231205T151001Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231205T151001Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:JP: Discussion Exam Meeting\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63837472201\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:5f2893c4cb7cb0cc28b2fce0f97d988a75a5b5fd\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=false
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(936, 1008, 26, 23)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/openfilestree]
+sort-col=0
+sort-order=0
+
+[org/gnome/gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=8
+sort-order=0
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+edge-tiling=false
+workspaces-only-on-primary=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/nautilus/icon-view]
+captions=['detailed_type', 'size', 'none']
+default-zoom-level='medium'
+
+[org/gnome/nautilus/list-view]
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+show-create-link=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(1888, 1008)
+maximized=false
+
+[org/gnome/nm-applet/eap/13b25c40-66e8-4920-8cd1-eca9fc780264]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/1b130643-2944-422c-a889-81cf6cb01784]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/288a663c-62b7-4121-9289-e43252c289da]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/44df8f8d-033f-4d73-9625-6b6f39fdd753]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/69686721-4cff-4e98-a2e8-2b146c08049c]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/b05b2bc4-b650-3c6d-ba55-a85efd5df07e]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/portal/filechooser/com.discordapp.Discord]
+last-folder-path='/home/tobylaroned/Downloads'
+
+[org/gnome/portal/filechooser/com.github.Eloston.UngoogledChromium]
+last-folder-path='/home/tobylaroned/GoogleDrive/Studies/TIU/Classes/Semester 7/Undergraduate Thesis Writing Seminar'
+
+[org/gnome/portal/filechooser/com.rtosta.zapzap]
+last-folder-path='/home/tobylaroned/Documents'
+
+[org/gnome/portal/filechooser/gnome-background-panel]
+last-folder-path='/home/tobylaroned/Pictures/LainWPP'
+
+[org/gnome/portal/filechooser/gnome-network-panel]
+last-folder-path='/home/tobylaroned/Documents/keypair'
+
+[org/gnome/portal/filechooser/md.obsidian.Obsidian]
+last-folder-path='/home/tobylaroned/GoogleDrive/Tech/Projects/Morse_Arduino'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(35.895256493291399, 139.47608819999999)
+night-light-temperature=uint32 3653
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>e']
+next=['<Alt>equal']
+play=['<Alt>minus']
+previous=['<Alt>0']
+screensaver=['<Shift><Control><Super>l']
+search=['<Control>space']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='gnome-terminal'
+name='terminal shortcut'
+
+[org/gnome/settings-daemon/plugins/power]
+power-saver-profile-on-low-battery=true
+sleep-inactive-ac-timeout=1800
+
+[org/gnome/shell]
+app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, '02a2dc88-aff2-4b3c-8c52-b818fb0a4cf3': <{'position': <5>}>, 'org.gnome.Totem.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'simple-scan.desktop': <{'position': <8>}>, 'org.gnome.Settings.desktop': <{'position': <9>}>, 'gnome-system-monitor.desktop': <{'position': <10>}>, 'org.gnome.Boxes.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <13>}>, 'yelp.desktop': <{'position': <14>}>, 'org.gnome.Cheese.desktop': <{'position': <15>}>, 'org.gnome.Tour.desktop': <{'position': <16>}>, 'org.gnome.Extensions.desktop': <{'position': <17>}>, 'org.gnome.Calendar.desktop': <{'position': <18>}>}, {'com.spotify.Client.desktop': <{'position': <0>}>, 'com.authy.Authy.desktop': <{'position': <1>}>, 'com.discordapp.Discord.desktop': <{'position': <2>}>, 'input-remapper-gtk.desktop': <{'position': <3>}>, 'tv.plex.PlexDesktop.desktop': <{'position': <4>}>, 'com.github.Eloston.UngoogledChromium.desktop': <{'position': <5>}>, 'us.zoom.Zoom.desktop': <{'position': <6>}>, 'com.github.maoschanz.DynamicWallpaperEditor.desktop': <{'position': <7>}>, 'org.codeberg.dnkl.foot.desktop': <{'position': <8>}>, 'org.codeberg.dnkl.footclient.desktop': <{'position': <9>}>, 'org.gnome.TextEditor.desktop': <{'position': <10>}>, 'org.codeberg.dnkl.foot-server.desktop': <{'position': <11>}>, 'grub-customizer.desktop': <{'position': <12>}>, 'org.gnome.Software.desktop': <{'position': <13>}>, 'timeshift-gtk.desktop': <{'position': <14>}>, 'winetricks.desktop': <{'position': <15>}>, 'com.rtosta.zapzap.desktop': <{'position': <16>}>, 'org.vim.Vim.desktop': <{'position': <17>}>, 'nvim.desktop': <{'position': <18>}>}]
+command-history=['r']
+disable-user-extensions=false
+disabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'background-logo@fedorahosted.org', 'window-list@gnome-shell-extensions.gcampax.github.com', 'tophat@fflewddur.github.io', 'batime@martin.zurowietz.de', 'gradienttopbar@pshow.org', 'notification-icons@muhammad_ans.github', 'user-id-in-top-panel@fthx', 'tiling-assistant@leleat-on-github']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'extension-list@tu.berry', 'Vitals@CoreCoding.com', 'logomenu@aryan_k', 'aztaskbar@aztaskbar.gitlab.com', 'forge@jmmaranan.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'md.obsidian.Obsidian.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='45.0'
+
+[org/gnome/shell/app-switcher]
+current-workspace-only=true
+
+[org/gnome/shell/extensions/Logo-menu]
+hide-forcequit=true
+hide-icon-shadow=false
+menu-button-icon-image=1
+show-activities-button=true
+show-lockscreen=false
+symbolic-icon=true
+
+[org/gnome/shell/extensions/aztaskbar]
+desaturation-factor=0.54999999999999993
+favorites=true
+icon-size=26
+icon-style='REGULAR'
+indicator-location='BOTTOM'
+main-panel-height=(true, 40)
+multi-window-indicator-style='INDICATOR'
+panel-location='TOP'
+position-in-panel='LEFT'
+position-offset=3
+show-apps-button=(false, 0)
+show-panel-activities-button=true
+
+[org/gnome/shell/extensions/extension-list]
+button-icon=uint32 0
+toggle-unpin=false
+
+[org/gnome/shell/extensions/forge]
+auto-split-enabled=true
+css-last-update=uint32 37
+css-updated='1701013985363'
+float-always-on-top-enabled=true
+focus-border-toggle=true
+preview-hint-enabled=true
+split-border-toggle=true
+stacked-tiling-mode-enabled=true
+tiling-mode-enabled=true
+window-gap-hidden-on-single=false
+window-gap-size=uint32 8
+window-gap-size-increment=uint32 1
+
+[org/gnome/shell/extensions/forge/keybindings]
+con-split-horizontal=['<Super>z']
+con-split-layout-toggle=['<Super>g']
+con-split-vertical=['<Super>v']
+con-stacked-layout-toggle=['<Shift><Super>s']
+con-tabbed-layout-toggle=['<Shift><Super>t']
+con-tabbed-showtab-decoration-toggle=['<Control><Alt>y']
+focus-border-toggle=['<Super>x']
+prefs-tiling-toggle=['<Super>w']
+window-focus-down=['<Super>j']
+window-focus-left=['<Super>h']
+window-focus-right=['<Super>l']
+window-focus-up=['<Super>k']
+window-gap-size-decrease=['<Control><Super>minus']
+window-gap-size-increase=['<Control><Super>plus']
+window-move-down=['<Control><Super>j']
+window-move-left=['<Control><Super>h']
+window-move-right=['<Control><Super>l']
+window-move-up=['<Control><Super>k']
+window-resize-bottom-decrease=['<Shift><Control><Super>i']
+window-resize-bottom-increase=['<Control><Super>u']
+window-resize-left-decrease=['<Shift><Control><Super>o']
+window-resize-left-increase=['<Control><Super>y']
+window-resize-right-decrease=['<Shift><Control><Super>y']
+window-resize-right-increase=['<Control><Super>o']
+window-resize-top-decrease=['<Shift><Control><Super>u']
+window-resize-top-increase=['<Control><Super>i']
+window-snap-center=@as []
+window-snap-one-third-left=@as []
+window-snap-one-third-right=@as []
+window-snap-two-third-left=@as []
+window-snap-two-third-right=@as []
+window-swap-down=['<Control><Super>j']
+window-swap-last-active=['<Super>Return']
+window-swap-left=['<Control><Super>h']
+window-swap-right=['<Control><Super>l']
+window-swap-up=['<Control><Super>k']
+window-toggle-always-float=['<Shift><Super>c']
+window-toggle-float=['<Super>c']
+workspace-active-tile-toggle=['<Shift><Super>w']
+
+[org/gnome/shell/extensions/tiling-assistant]
+activate-layout0=@as []
+activate-layout1=@as []
+activate-layout2=@as []
+activate-layout3=@as []
+active-window-hint=1
+active-window-hint-color='rgb(53,132,228)'
+auto-tile=@as []
+center-window=@as []
+debugging-free-rects=@as []
+debugging-show-tiled-rects=@as []
+default-move-mode=0
+dynamic-keybinding-behavior=3
+import-layout-examples=false
+last-version-installed=44
+maximize-with-gap=true
+restore-window=['<Super>Down']
+search-popup-layout=@as []
+single-screen-gap=14
+tile-bottom-half=['<Super>KP_2']
+tile-bottom-half-ignore-ta=@as []
+tile-bottomleft-quarter=['<Super>KP_1']
+tile-bottomleft-quarter-ignore-ta=@as []
+tile-bottomright-quarter=['<Super>KP_3']
+tile-bottomright-quarter-ignore-ta=@as []
+tile-edit-mode=['<Control><Super>p']
+tile-left-half=['<Super>Left', '<Super>KP_4']
+tile-left-half-ignore-ta=@as []
+tile-maximize=['<Super>Up', '<Super>KP_5']
+tile-maximize-horizontally=@as []
+tile-maximize-vertically=@as []
+tile-right-half=['<Super>Right', '<Super>KP_6']
+tile-right-half-ignore-ta=@as []
+tile-top-half=['<Super>KP_8']
+tile-top-half-ignore-ta=@as []
+tile-topleft-quarter=['<Super>KP_7']
+tile-topleft-quarter-ignore-ta=@as []
+tile-topright-quarter=['<Super>KP_9']
+tile-topright-quarter-ignore-ta=@as []
+toggle-always-on-top=@as []
+toggle-tiling-popup=@as []
+window-gap=14
+
+[org/gnome/shell/extensions/tophat]
+cpu-display='chart'
+network-usage-unit='bits'
+
+[org/gnome/shell/extensions/vitals]
+alphabetize=true
+fixed-widths=false
+hide-icons=false
+hide-zeros=false
+hot-sensors=['_processor_usage_', '_memory_allocated_', '__temperature_avg__', '_network_wifi_link quality_', '_battery_time_left_', '_battery_rate_']
+memory-measurement=1
+menu-centered=false
+position-in-panel=2
+show-battery=true
+show-voltage=true
+
+[org/gnome/shell/extensions/window-list]
+grouping-mode='always'
+show-on-all-monitors=true
+
+[org/gnome/shell/keybindings]
+focus-active-notification=@as []
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+toggle-message-tray=@as []
+toggle-quick-settings=@as []
+
+[org/gnome/shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('Tokyo', 'RJTI', true, [(0.62191898430954862, 2.4408429589140699)], [(0.62282074357417661, 2.4391218722853854)])>)>]
+
+[org/gnome/shell/world-clocks]
+locations=[<(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Jakarta', 'WIII', false, [(-0.10675597839808398, 1.8613936472519526)], [(-0.10675597839808398, 1.8613936472519526)])>)>, <(uint32 2, <('Melbourne', 'YMML', true, [(-0.65740735740229495, 2.5278185274873568)], [(-0.6600253512802865, 2.5301456447922108)])>)>]
+
+[org/gnome/software]
+check-timestamp=int64 1703055544
+first-run=false
+flatpak-purge-timestamp=int64 1702976259
+install-timestamp=int64 1700508752
+update-notification-timestamp=int64 1702961267
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/terminal/legacy]
+new-terminal-mode='tab'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(12,13,9)'
+background-transparency-percent=12
+cell-width-scale=1.1500000000000001
+cursor-shape='underline'
+font='Monospace 11'
+foreground-color='rgb(208,207,204)'
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(0.70588237047195435, 0.65490198135375977, 0.83921569585800171, 1.0), (0.066666670143604279, 0.78039216995239258, 0.87843137979507446, 1.0), (0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0)]
+selected-color=(true, 0.14901961386203766, 0.63529413938522339, 0.4117647111415863, 1.0)
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=172
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+view-type='grid'
+window-size=(859, 676)
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.047058823529411764, 0.050980392156862744, 0.035294117647058823, 1.0), (0.10333333333333335, 0.10333333333333335, 0.10333333333333335, 1.0), (0.090196078431372548, 0.078431372549019607, 0.12941176470588237, 1.0)]
+selected-color=(true, 0.047058823529411764, 0.050980392156862744, 0.035294117647058823, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=167
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 902)
+
+[system/locale]
+region='ja_JP.UTF-8'

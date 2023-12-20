@@ -1,0 +1,7 @@
+{
+    "version": "2.0.1",
+    "autoload": {
+        "AT Translated Set 2 keyboard": "BS_Pipe_Caps_CTRL_VIMarrows",
+        "Lenovo ThinkPad Compact USB Keyboard with TrackPoint": "Tob-Binds"
+    }
+}
