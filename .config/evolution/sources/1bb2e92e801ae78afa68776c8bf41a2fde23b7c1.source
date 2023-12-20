@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=andra0417@gmail.com
+Enabled=true
+Parent=ada585e3b7b7e4b0108c904de0cc62d3ca06bf1f
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=6648781d7085f947fb1c1a068c79ca0543621b04
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=andra0417@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
