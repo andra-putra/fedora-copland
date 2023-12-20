@@ -16,3 +16,13 @@ This repository contains my personal Fedora setup configurations, including GNOM
    git clone https://github.com/andra-putra/fedora-copland.git
    cd fedora-copland
 
+## Gnome extensions
+Currently have to be installed manually through the [Gnome Extensions website](https://extensions.gnome.org)
+- App icons taskbar
+- Color picker
+- Custom accent colors
+- Extensions list
+- Forge
+- Logo menu
+- User Themes
+- Vitals
