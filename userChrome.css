@@ -1,0 +1,17 @@
+#TabsToolbar {
+    min-height: 15px !important;
+    max-height: 15px !important;
+}
+
+.tabbrowser-tab {
+    display: none !important;
+}
+#sidebar-box {
+  min-width: 50px !important;
+/*  width: 155px !important;*/
+}
+
+:root#sidebar-box {
+  min-width: 1em !important;
+}
+
