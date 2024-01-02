@@ -2,7 +2,17 @@
 
 This repository contains my personal Fedora setup configurations, including GNOME settings, custom keyboard layouts, and various dotfiles. 
 
+## Screenshots
+
+### Current Wallpaper
+![Current wallpaper](wallpapers/orangeautoflame_wpp.png)
+
+### Desktop using [Forge TWM](https://github.com/forge-ext/forge)
 ![Screenshot](fedora-copland-screenshot.png)
+
+### Firefox Theme
+![Firefox Theme](fedora-copland-firefox.png)
+
 ## Contents
 
 - `gnome-settings`: GNOME settings and extensions.
