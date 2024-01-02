@@ -1,4 +1,4 @@
-# Fedora Copland Rice/Theme
+# Tob-Fedora Rice/Theme
 
 This repository contains my personal Fedora setup configurations, including GNOME settings, custom keyboard layouts, and various dotfiles. 
 
