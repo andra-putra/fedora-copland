@@ -2,6 +2,7 @@
 
 This repository contains my personal Fedora setup configurations, including GNOME settings, custom keyboard layouts, and various dotfiles. 
 
+![Screenshot](fedora-copland-screenshot.png)
 ## Contents
 
 - `gnome-settings`: GNOME settings and extensions.
