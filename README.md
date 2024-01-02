@@ -27,8 +27,8 @@ This repository contains my personal Fedora setup configurations, including GNOM
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/andra-putra/fedora-copland.git
-   cd fedora-copland
+   git clone https://github.com/andra-putra/tob-fedora
+   cd tob-fedora
 
 
 ## Gnome extensions
