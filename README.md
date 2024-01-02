@@ -9,6 +9,7 @@ This repository contains my personal Fedora setup configurations, including GNOM
 
 ### Desktop using [Forge TWM](https://github.com/forge-ext/forge)
 ![Screenshot](screenshots/fedora-copland-screenshot.png)
+Note: Forge is a tiling window manager-like extension for Gnome.
 
 ### Firefox Theme
 ![Firefox Theme](screenshots/fedora-copland-firefox.png)
