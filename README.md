@@ -8,10 +8,13 @@ This repository contains my personal Fedora setup configurations, including GNOM
 ![Current wallpaper](wallpapers/orangeautoflame_wpp.png)
 
 ### Desktop using [Forge TWM](https://github.com/forge-ext/forge)
-![Screenshot](fedora-copland-screenshot.png)
+![Screenshot](screenshots/fedora-copland-screenshot.png)
 
 ### Firefox Theme
-![Firefox Theme](fedora-copland-firefox.png)
+![Firefox Theme](screenshots/fedora-copland-firefox.png)
+
+### Colors are based on an [Edex-UI Theme](https://github.com/GitSquared/edex-ui/blob/master/media/screenshot_blade.png)
+![edex-ui](screenshots/edex-ui.png)
 
 ## Contents
 
@@ -38,3 +41,6 @@ Currently have to be installed manually through the [Gnome Extensions website](h
 - Logo menu
 - User Themes
 - Vitals
+
+## TODO
+- Export `gnome-terminal` config colors, etc.
