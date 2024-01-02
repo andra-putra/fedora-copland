@@ -12,6 +12,7 @@ This repository contains my personal Fedora setup configurations, including GNOM
 
 ### Firefox Theme
 ![Firefox Theme](screenshots/fedora-copland-firefox.png)
+Note: The orange ring surrounding firefox you see is the "selected window" indicator from Forge TWM extension mentioned earlier.
 
 ### Colors are based on an [Edex-UI Theme](https://github.com/GitSquared/edex-ui/blob/master/media/screenshot_blade.png)
 ![edex-ui](screenshots/edex-ui.png)
