@@ -1,6 +1,6 @@
 # Tob-Fedora Rice/Theme
 
-This repository contains my personal Fedora setup configurations, including GNOME settings, custom keyboard layouts, and various dotfiles. 
+My personal Fedora setup configs, including GNOME settings, custom keyboard layouts, and various dotfiles. Does this count as a rice already? Whatever, I like it so far. Might consider trying out SWAY in the future.
 
 ## Screenshots
 
