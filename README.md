@@ -47,3 +47,4 @@ Currently have to be installed manually through the [Gnome Extensions website](h
 ## TODO
 - Export `gnome-terminal` config colors, etc.
 - Look into using alternate terminal emulator (something simple + tmux maybe?)
+- Firefox: link chrome.css to other repo, upload color theme to this repo
