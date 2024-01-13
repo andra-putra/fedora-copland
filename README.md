@@ -25,7 +25,7 @@ Note: The orange ring surrounding firefox you see is the "selected window" indic
 - `scripts`: Installation and setup scripts.
 - Dotfiles like `.p10k.zsh` : Configuration files for Zsh, Vim, and Powerlevel10k.
 
-## Installation
+## Installation (WIP/作業中)
 
 1. **Clone the Repository**:
    ```bash
