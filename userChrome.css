@@ -29,4 +29,12 @@
   min-width: 1em !important;
 }
 
+#titlebar {
+  height: 21px;
+}
 
+#toolbar-menubar
+{
+  min-height: 21px;
+  height: 21px;
+}
