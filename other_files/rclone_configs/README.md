@@ -9,6 +9,12 @@ This is my personal file for using rclone to mount google drive locally so I can
 
 ## (Optional) Make it automatically mount on boot 
 1. Use the systemd file in this repo. Edit the paths and names to correct ones, then place it to /etc/systemd/system/ 
+    a. Change the following:
+        - `/home/andra/gdrive` Your mount folder path
+        - `--config` Path to your rclone config dotfile
+        - `--uid=1000` Your user's UID
+        - `--gid-1000` Your user's GID
+        - `andra-gdrive:` Change this to be (Your rclone remote location name): 
 2. Make sure to also go to `/etc/fuse.conf` and add a line that says `user_allow_other` to prevent permission errors. I had to do this at least, else I can't access the folder locally with my user for some reason.
 3. Restart systemd daemon `sudo systemctl daemon-reload`
 4. Enable systemd service `sudo systemctl enable rclone-mount.service`
