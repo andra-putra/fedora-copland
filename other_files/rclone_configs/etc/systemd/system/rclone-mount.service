@@ -1,0 +1,21 @@
+[Unit]
+Description=RClone Google Drive Mount
+AssertPathIsDirectory=/home/andra/gdrive
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount \
+        --config=/home/andra/.config/rclone/rclone.conf \
+        --vfs-cache-mode full \
+        --allow-other \
+        --uid=1000 \
+        --gid=1000 \
+        andra-gdrive: /home/andra/gdrive
+ExecStop=/bin/fusermount -u /home/andra/gdrive
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+
