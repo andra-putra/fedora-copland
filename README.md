@@ -32,6 +32,19 @@ Note: The orange ring surrounding firefox you see is the "selected window" indic
    git clone https://github.com/andra-putra/tob-fedorahttps://github.com/andra-putra/tob-fedora
    cd tob-fedora
 
+### Firefox Setup
+1. To use the `userChrome.css` file, you must first set these following things to `true` in about:config
+-`toolkit.legacyUserProfileCustomizations.stylesheets`
+-`devtools.chrome.enabled`
+2. Then, locate your user profile folder by going to about:support and clicking on profile folder
+3. Inside your profile folder, locate/create `chrome` folder
+4. Place the `userChrome.css` file from this repo into that `chrome` folder
+
+### ZSH Setup
+Extensions enabled:
+- [FZF-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ## Gnome extensions
 Currently have to be installed manually through the [Gnome Extensions website](https://extensions.gnome.org)
