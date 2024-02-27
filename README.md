@@ -56,6 +56,11 @@ Currently have to be installed manually through the [Gnome Extensions website](h
 - Logo menu
 - User Themes
 - Vitals
+- Privacy quick settings
+- Quick settings audio panel
+- QSTweak Quick Setting Tweaker
+- Top panel notification icons revived
+
 
 ## TODO
 - Export `gnome-terminal` config colors, etc.
