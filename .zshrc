@@ -117,6 +117,6 @@ source $ZSH/oh-my-zsh.sh
 # alias vim=nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export EDITOR='nvim'
-alias updatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
-# alias updatepls='sudo dnf update -y' # For RHEL based
+# alias updatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
+alias updatepls='sudo dnf update -y' # For RHEL based
 alias toclip='xclip -selection clipboard'
