@@ -15,7 +15,9 @@ Note: Forge is a tiling window manager-like extension for Gnome.
 
 ### Firefox Theme
 ![Firefox Theme](screenshots/fedora-copland-firefox.png)
+Notice the left-hand side tabs list and the lack of tabs on the top.
 Note: The orange ring surrounding firefox you see is the "selected window" indicator from Forge TWM extension mentioned earlier.
+
 
 ### Colors are based on an [Edex-UI Theme](https://github.com/GitSquared/edex-ui/blob/master/media/screenshot_blade.png)
 ![edex-ui](screenshots/edex-ui.png)
@@ -39,11 +41,9 @@ Note: The orange ring surrounding firefox you see is the "selected window" indic
 My firefox modifications are made to use the [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) extension with thinner bezels on the sides and top, along with changing the minimum width of the left-hand side tabs list. 
 These modifications are done by using a `userChrome.css` file in firefox.
 
-1. To use the `userChrome.css` file, you must first set these following things to `true` in about:config
--`toolkit.legacyUserProfileCustomizations.stylesheets`
--`devtools.chrome.enabled`
-2. Then, locate your user profile folder by going to about:support and clicking on profile folder
-3. Inside your profile folder, locate/create `chrome` folder
+1. To use the `userChrome.css` file, you must first set these following things to `true` in firefox's `about:config`: `toolkit.legacyUserProfileCustomizations.stylesheets` and `devtools.chrome.enabled`
+2. Then, locate your user profile folder by going to `about:support` and clicking on `Profile Directory` --> `Open Directory` 
+3. Inside your profile folder, locate or create `chrome` folder
 4. Place the [userChrome.css](./firefox/userChrome.css) file from this repo into that `chrome` folder
 
 I also use a [custom firefox color theme](https://color.firefox.com/?theme=XQAAAAIgAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPryguaG23ZQLclaabCRGMSkdTEdxh6UXQSr56S8jn27vOFOSm7G-dmiCy1yl7h3M1feQdaYABC8iXqLydFJlD5_8Jz0Vnm5WkxA8Rff-3q97iBIGR3_njstPDQm0ceaOfZKfQf8TDoF4hvwlRB-pYVIFz7jUf1AF6d4pXtmC20ZJoPHDEeDDOp-Ufu1H67btL_KM2zjv-2QXaFxqL4Hs_6ozWA) using Firefox Color.
@@ -57,6 +57,7 @@ Will look into other things like kitty etc. in the future.
 ### Shell Modifications
 Uses:
 - Oh-my-zsh, p10k theme
+
 Extensions enabled:
 - [FZF-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -69,10 +70,9 @@ Uses:
 ### Japanese IME
 Uses:
 - [Ibus-Anthy](https://github.com/ibus/ibus-anthy/)
-    - Fedora comes with this as default JP input out of the box, but in case doesn't work, I followed [this guide](https://yasuhira-tanuki.com/linux-ibus-anthy/) for my PopOS install.
+    - Fedora comes with this as default JP input out of the box, but in case it doesn't, I followed [this guide](https://yasuhira-tanuki.com/linux-ibus-anthy/) for my PopOS install.
 
-Keyboard shortcuts:
-Mostly default other than these three.
+Keyboard shortcuts (rest is default other than these three):
 | Command   | Shortcut    |
 |--------------- | --------------- |
 | on_off   | alt+grave   |
@@ -104,6 +104,7 @@ Additional PopOS Specific Extensions:
 
 ### Google Drive Integration
 Though distros like Fedora have built-in cloud storage integration through Gnome Accounts or whatever, I found that it doesn't play well with things like Obsidian that live-edits the files.
+
 I found that using rclone worked much better for that purpose, so I decided to use that mainly. Though this does come with the downside of seeing double cloud storage locations sometimes on Fedora.
 
 Uses:
@@ -114,4 +115,4 @@ Uses:
 ## TODO
 - Export `gnome-terminal` config colors, etc.
 - Look into using alternate terminal emulator (something simple + tmux maybe?)
-- Firefox: link chrome.css to other repo, upload color theme to this repo
+- Firefox: link chrome.css to other repo
