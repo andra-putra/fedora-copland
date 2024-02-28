@@ -16,6 +16,7 @@ Note: Forge is a tiling window manager-like extension for Gnome.
 ### Firefox Theme
 ![Firefox Theme](screenshots/fedora-copland-firefox.png)
 Notice the left-hand side tabs list and the lack of tabs on the top.
+
 Note: The orange ring surrounding firefox you see is the "selected window" indicator from Forge TWM extension mentioned earlier.
 
 
