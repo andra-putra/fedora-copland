@@ -109,4 +109,14 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias ls="/usr/bin/lsd"
+
+ 
+# Setup fzf key bindings and auto-completion
+[ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
+[ -f /usr/share/doc/fzf/examples/completion.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
+# alias vim=nvim
+export PATH="$PATH:/opt/nvim-linux64/bin"
+export EDITOR='nvim'
+alias updatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
+# alias updatepls='sudo dnf update -y' # For RHEL based
+alias toclip='xclip -selection clipboard'
