@@ -97,6 +97,7 @@ Currently have to be installed manually through the [Gnome Extensions website](h
 - Top panel notification icons revived
 - Adjust Display Brightness
 - Top Bar Organizer
+- [AlphaTint](https://extensions.gnome.org/extension/4624/alphatint/)
 
 Additional PopOS Specific Extensions:
 - Audio Selector
