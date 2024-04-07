@@ -117,8 +117,8 @@ source $ZSH/oh-my-zsh.sh
 # alias vim=nvim
 export PATH="$PATH:$HOME/.local/bin"
 export EDITOR='nvim'
-alias updateaptpls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
-alias updatednfpls='sudo dnf update -y' # For RHEL based
+alias aptupdatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
+alias dnfupdatepls='sudo dnf update -y' # For RHEL based
 alias toclip='xclip -selection clipboard' # Use for easy copy to clipboard
 alias cats='highlight -O ansi --force' # Use for highlighted cat output
 # bindkey '^R' history-incremental-search-backward # Use this if fzf doesn't work
