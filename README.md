@@ -97,6 +97,8 @@ Currently have to be installed manually through the [Gnome Extensions website](h
 - Top panel notification icons revived
 - Adjust Display Brightness
 - Top Bar Organizer
+- [AlphaTint](https://extensions.gnome.org/extension/4624/alphatint/)
+- [Mouse Follows Focus](https://extensions.gnome.org/extension/4642/mouse-follows-focus/)    
 
 Additional PopOS Specific Extensions:
 - Audio Selector
