@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,8 +115,14 @@ source $ZSH/oh-my-zsh.sh
 [ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
 [ -f /usr/share/doc/fzf/examples/completion.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
 # alias vim=nvim
-export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:$HOME/.local/bin"
 export EDITOR='nvim'
 alias updatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
 # alias updatepls='sudo dnf update -y' # For RHEL based
-alias toclip='xclip -selection clipboard'
+alias toclip='xclip -selection clipboard' # Use for easy copy to clipboard
+alias cats='highlight -O ansi --force' # Use for highlighted cat output
+# bindkey '^R' history-incremental-search-backward # Use this if fzf doesn't work
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
