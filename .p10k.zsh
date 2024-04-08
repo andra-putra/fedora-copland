@@ -374,11 +374,18 @@
 
     if (( $1 )); then
       # Styling for up-to-date Git status.
-      local       meta='%f'     # default foreground
-      local      clean='%76F'   # green foreground
-      local   modified='%178F'  # yellow foreground
-      local  untracked='%39F'   # blue foreground
-      local conflicted='%196F'  # red foreground
+      # local       meta='%f'     # default foreground
+      # local      clean='%76F'   # green foreground
+      # local   modified='%178F'  # yellow foreground
+      # local  untracked='%39F'   # blue foreground
+      # local conflicted='%196F'  # red foreground
+
+      # tob-fedora color edits below
+      local       meta='%f'       # default foreground
+      local      clean='%255F'    # white foreground
+      local   modified='%244F'    # lightgrey foreground
+      local  untracked='%237F'    # darkgrey foreground
+      local conflicted='%196F'    # red foreground
     else
       # Styling for incomplete and stale Git status.
       local       meta='%244F'  # grey foreground
