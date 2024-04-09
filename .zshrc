@@ -77,8 +77,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf) 
-
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf tmux) 
+ZSH_TMUX_AUTOSTART_ONCE=true
+ZSH_TMUX_CONFIG=$HOME/.config/tmux/.tmux.conf
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -120,9 +121,14 @@ export EDITOR='nvim'
 alias aptupdatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
 alias dnfupdatepls='sudo dnf update -y' # For RHEL based
 alias toclip='xclip -selection clipboard' # Use for easy copy to clipboard
-alias cats='highlight -O ansi --force' # Use for highlighted cat output
+# alias cats='highlight -O ansi --force' # Use for highlighted cat output
+alias cat='bat' # Aliases cat with bat
 # bindkey '^R' history-incremental-search-backward # Use this if fzf doesn't work
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# zoxide cd replacer
+eval "$(zoxide init --cmd cd zsh)"
