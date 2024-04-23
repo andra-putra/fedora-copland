@@ -119,7 +119,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.local/bin"
 export EDITOR='nvim'
 alias aptupdatepls='sudo apt update && sudo apt upgrade -y' # For ubuntu based
-alias dnfupdatepls='sudo dnf update -y' # For RHEL based
+alias dnfupdatepls='sudo dnf upgrade -y' # For RHEL based
 alias toclip='xclip -selection clipboard' # Use for easy copy to clipboard
 # alias cats='highlight -O ansi --force' # Use for highlighted cat output
 alias cat='bat' # Aliases cat with bat
@@ -132,3 +132,19 @@ export NVM_DIR="$HOME/.nvm"
 
 # zoxide cd replacer
 eval "$(zoxide init --cmd cd zsh)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/tobylaroned/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/tobylaroned/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
