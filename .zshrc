@@ -118,8 +118,8 @@ source $ZSH/oh-my-zsh.sh
 # alias vim=nvim
 export PATH="$PATH:$HOME/.local/bin"
 export EDITOR='nvim'
-alias aptupdate='sudo apt update && sudo apt upgrade -y' # For ubuntu based
-alias dnfupdate='sudo dnf update -y' # For RHEL based
+alias aptupdate='sudo apt update && sudo apt upgrade -y && sudo mandb' # For ubuntu based
+alias dnfupdate='sudo dnf update -y && sudo mandb' # For RHEL based
 alias toclip='xclip -selection clipboard' # Use for easy copy to clipboard
 # alias cats='highlight -O ansi --force' # Use for highlighted cat output
 alias cat='bat' # Aliases cat with bat
