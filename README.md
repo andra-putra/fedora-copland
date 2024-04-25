@@ -1,6 +1,6 @@
-# Tob-Fedora Rice/Theme
+# Tob-Linux Rice/Theme
 
-My personal Fedora setup configs, including GNOME settings, custom keyboard layouts, and various dotfiles. Does this count as a rice already? Whatever, I like it so far. Might consider trying out SWAY in the future.
+My personal Linux setup configs, including GNOME settings, custom keyboard layouts, and various dotfiles. Does this count as a rice already? Whatever, I like it so far. Might consider trying out SWAY in the future.
 
 Though I still main Fedora on my Thinkpad, I'm actually using PopOS on my desktop PC right now. All modifications etc. on there are based on this rice though. 
 
