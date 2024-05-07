@@ -117,6 +117,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f /usr/share/doc/fzf/examples/completion.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
 # alias vim=nvim
 export PATH="$PATH:$HOME/.local/bin"
+
 export EDITOR='nvim'
 alias aptupdate='sudo apt update && sudo apt upgrade -y && sudo mandb' # For ubuntu based
 alias dnfupdate='sudo dnf update -y && sudo mandb' # For RHEL based
@@ -135,16 +136,20 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/tobylaroned/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/tobylaroned/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+# __conda_setup="$('/home/tobylaroned/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/tobylaroned/miniconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/home/tobylaroned/miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
 # <<< conda initialize <<<
 
+
+# Fastfetch auto launch
+# fastfetch -c /home/tobylaroned/github-repos/tob-linux/fastfetch_configs/autolaunch-fastfetch.jsonc --color-keys red --logo-color-1 red
+alias tobfetch='fastfetch -c /home/tobylaroned/github-repos/tob-linux/fastfetch_configs/tob-fastfetch.jsonc --logo-color-1 red --color-title red'
