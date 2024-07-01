@@ -119,6 +119,9 @@ Followed [this guide](https://fedoramagazine.org/hibernation-in-fedora-36-workst
 
 Some issues with wifi adapter not working after hibernation, followed [this guide](https://community.frame.work/t/guide-solution-for-wifi-problems-after-hibernate-non-systemd/52332). You can find my personal file to fix this issue in this repo at `./other_files/hibernate-pre-post.sh`
 
+### Different Mouse Sens Per Device
+Followed [this guide](https://unix.stackexchange.com/questions/422470/how-to-set-device-specific-mouse-settings-in-wayland-under-libinput-debian-gnom), but sometimes still doesn't work on wayland.
+
 ## TODO
 - Export `gnome-terminal` config colors, etc.
 - Look into using alternate terminal emulator (something simple + tmux maybe?)
