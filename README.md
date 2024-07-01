@@ -117,8 +117,7 @@ Uses:
 ### Enabling Hibernate for Laptops
 Followed [this guide](https://fedoramagazine.org/hibernation-in-fedora-36-workstation/) to enable hibernate first.
 
-Some issues with wifi adapter not working after hibernation, followed [this guide](https://community.frame.work/t/guide-solution-for-wifi-problems-after-hibernate-non-systemd/52332)
-
+Some issues with wifi adapter not working after hibernation, followed [this guide](https://community.frame.work/t/guide-solution-for-wifi-problems-after-hibernate-non-systemd/52332). You can find my personal file to fix this issue in this repo at `./other_files/hibernate-pre-post.sh`
 
 ## TODO
 - Export `gnome-terminal` config colors, etc.
